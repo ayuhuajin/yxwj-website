@@ -19,3 +19,5 @@ repository: https://github.com/ayuhuajin/yxwj-website.git #你的仓库地址
 branch: gh-pages #绑定的仓库分支
 
 url: https://ayuhuajin.github.io/yxwj-website/
+
+hexo-admin 简易后台
