@@ -102,3 +102,45 @@ hexo.extend.filter.register('after_post_render', function(data){
 });
 </script>
 ```
+
+安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：
+$ npm install hexo-generator-searchdb --save
+
+编辑 站点配置文件，新增以下内容到任意位置：
+
+search:
+path: search.xml
+field: post
+format: html
+limit: 10000
+
+编辑 主题配置文件，启用本地搜索功能：
+
+# Local search
+
+local_search:
+enable: true
+
+然后 重新生成 查看:
+
+npm install hexo-generator-json-content
+
+站点 config.yml 添加配置
+jsonContent:
+meta: false
+pages: false
+posts:
+title: true
+date: true
+path: true
+text: false
+raw: false
+content: false
+slug: false
+updated: false
+comments: false
+link: false
+permalink: false
+excerpt: false
+categories: false
+tags: true

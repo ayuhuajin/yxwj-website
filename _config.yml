@@ -105,3 +105,28 @@ deploy:
   type: "git"
   repository: https://github.com/ayuhuajin/yxwj-website.git #你的仓库地址
   branch: gh-pages #绑定的仓库分支
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true

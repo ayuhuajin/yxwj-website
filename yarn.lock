@@ -1955,6 +1955,22 @@
   dependencies:
     "hexo-pagination" "3.0.0"
 
+"hexo-generator-json-content@^4.2.3":
+  "integrity" "sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA=="
+  "resolved" "https://registry.npmjs.org/hexo-generator-json-content/-/hexo-generator-json-content-4.2.3.tgz"
+  "version" "4.2.3"
+  dependencies:
+    "hexo-util" "latest"
+    "keyword-extractor" "latest"
+    "moment" "latest"
+
+"hexo-generator-searchdb@^1.4.1":
+  "integrity" "sha512-7m8IBpZbI6iKb2jRYxs4pghD6Ln8ylQSRGl6MIC4G9wws21vYSXSD8rvC3MoCO+pWBHs6E/mTA/rjG+p2AZfVg=="
+  "resolved" "https://registry.npmjs.org/hexo-generator-searchdb/-/hexo-generator-searchdb-1.4.1.tgz"
+  "version" "1.4.1"
+  dependencies:
+    "nunjucks" "^3.2.2"
+
 "hexo-generator-tag@^2.0.0":
   "integrity" "sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw=="
   "resolved" "https://registry.npmjs.org/hexo-generator-tag/-/hexo-generator-tag-2.0.0.tgz"
@@ -2048,7 +2064,7 @@
     "prismjs" "^1.17.1"
     "strip-indent" "^3.0.0"
 
-"hexo-util@^3.0.1", "hexo-util@^3.1.0", "hexo-util@^3.3.0":
+"hexo-util@^3.0.1", "hexo-util@^3.1.0", "hexo-util@^3.3.0", "hexo-util@latest":
   "integrity" "sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q=="
   "resolved" "https://registry.npmjs.org/hexo-util/-/hexo-util-3.3.0.tgz"
   "version" "3.3.0"
@@ -2638,6 +2654,11 @@
     "json-schema" "0.4.0"
     "verror" "1.10.0"
 
+"keyword-extractor@latest":
+  "integrity" "sha512-oi7dSPpYtW/3fE0vZiqQgZ8mW3F1V9K4+rBJ0FcVrdXBEQuhZ0zKj7sX74eqGASuepLHf9aYdeonyKHWhYpHQA=="
+  "resolved" "https://registry.npmjs.org/keyword-extractor/-/keyword-extractor-0.0.28.tgz"
+  "version" "0.0.28"
+
 "kind-of@^3.0.2", "kind-of@^3.0.3", "kind-of@^3.2.0":
   "integrity" "sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ=="
   "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz"
@@ -2932,7 +2953,7 @@
   dependencies:
     "moment" "^2.29.4"
 
-"moment@^2.29.1", "moment@^2.29.4", "moment@^2.7.0":
+"moment@^2.29.1", "moment@^2.29.4", "moment@^2.7.0", "moment@latest":
   "integrity" "sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how=="
   "resolved" "https://registry.npmjs.org/moment/-/moment-2.30.1.tgz"
   "version" "2.30.1"
@@ -3022,7 +3043,7 @@
   dependencies:
     "boolbase" "~1.0.0"
 
-"nunjucks@^3.2.3":
+"nunjucks@^3.2.2", "nunjucks@^3.2.3":
   "integrity" "sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ=="
   "resolved" "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.4.tgz"
   "version" "3.2.4"
