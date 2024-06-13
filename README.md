@@ -9,6 +9,9 @@ hexo generate 生成 public 部署文件夹
 hexo deploy 部署 public 部署文件夹 到 github
 hexo server 本地部署
 
+hexo new "article01" 创建文章
+hexo new page about 创建新页面
+
 # Deployment
 
 ## Docs: https://hexo.io/docs/one-command-deployment
