@@ -1,21 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<title>HTTP Server Test Page</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元兴为记 - 网站服务</title>
+    <!-- 这里可以链接CSS文件 -->
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+     
+    <style>
+        /* 基本的响应式样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        /* 响应式图片 */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* 媒体查询，用于调整不同屏幕尺寸的布局 */
+        @media (max-width: 768px) {
+            /* 移动设备上的样式 */
+            .container {
+                padding: 0 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-<h1>Welcome to HTTP Serer Test Page!</h1>
-<p>If you see this page, the httpd web server 234234234234is successfully installed and
-working. Further configuration is required.</p>
+    <header>
+        <div class="container">
+            <!-- 网站的头部，可以包含logo、导航等 -->
+            <h1>元兴为记</h1>
+            <img src="/login.png" alt="">
+            <!-- 导航菜单 -->
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#services">服务介绍</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<p><em>Thank you for using apache httpd.</em></p>
+    <main>
+        <div class="container">
+            <!-- 主要内容区域 -->
+            <section id="home">
+                <h2>首页</h2>
+                <p>欢迎来到元兴为记，专注于网站服务。</p>
+            </section>
+            <!-- 其他内容区域 -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <!-- 网站的底部，可以包含版权信息、联系方式等 -->
+            <p>版权所有 &copy; 2024 元兴为记</p>
+        </div>
+    </footer>
 </body>
 </html>
