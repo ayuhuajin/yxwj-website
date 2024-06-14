@@ -1,45 +1,48 @@
-#部署地址 #https://ayuhuajin.github.io/myblog/
+## 部署地址
 
-#部署 git 插件
-hexo-deployer-git
+[官网文档](https://hexo.io/docs/one-command-deployment)
+[部署地址](https://ayuhuajin.github.io/myblog/) https://ayuhuajin.github.io/myblog/
 
-hexo clean 清空 public 文件夹
+## hexo 命令
 
-hexo generate 生成 public 部署文件夹
-hexo deploy 部署 public 部署文件夹 到 github
-hexo server 本地部署
+1.hexo clean 清空 public 文件夹
+2.hexo generate 生成 public 部署文件夹  
+3.hexo deploy 部署 public 部署文件夹 到 github 需要安装 hexo-deployer-git
+4.hexo server 本地部署
+5.hexo new "article01" 创建文章
+6.hexo new page about 创建新页面
 
-hexo new "article01" 创建文章
-hexo new page about 创建新页面
+## 插件
 
-# Deployment
+1.部署 git 插件 hexo-deployer-git
+2.hexo-admin 简易后台  
+3.下载插件 hexo-asset-image 引用图片
+4.hexo-generator-searchdb 搜索插件
+5.hexo-generator-json-content
 
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs:
 
+```
 deploy:
 type: "git"
 repository: https://github.com/ayuhuajin/yxwj-website.git #你的仓库地址
 branch: gh-pages #绑定的仓库分支
 
 url: https://ayuhuajin.github.io/yxwj-website/
+```
 
-hexo-admin 简易后台
+### 插件使用
 
-引用图片
-
-# 下载插件 hexo-asset-image
-
-1.本地引用
-打开 hexo 目录下的\_config.yml
+1.本地引用图片
+(1).打开 hexo 目录下的\_config.yml
 post_asset_folder: true
 
-修改代码  
+(2)修改代码  
 /node_modules/hexo-asset-image/index.js
 
-```
+```js
 <script>
-
-  'use strict';
+'use strict';
 var cheerio = require('cheerio');
 
 // http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
@@ -101,12 +104,14 @@ hexo.extend.filter.register('after_post_render', function(data){
   }
 });
 </script>
+
 ```
 
-安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：
+2.搜索插件
+(1)安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：
 $ npm install hexo-generator-searchdb --save
 
-编辑 站点配置文件，新增以下内容到任意位置：
+(2)编辑 站点配置文件，新增以下内容到任意位置：
 
 search:
 path: search.xml
@@ -114,33 +119,53 @@ field: post
 format: html
 limit: 10000
 
-编辑 主题配置文件，启用本地搜索功能：
+(3).编辑 主题配置文件，启用本地搜索功能：
 
+```
 # Local search
 
 local_search:
 enable: true
+```
 
-然后 重新生成 查看:
+3.hexo-generator-json-content
+(1).npm install hexo-generator-json-content
+(2).站点 config.yml 添加配置
 
-npm install hexo-generator-json-content
-
-站点 config.yml 添加配置
+```
 jsonContent:
-meta: false
-pages: false
-posts:
-title: true
-date: true
-path: true
-text: false
-raw: false
-content: false
-slug: false
-updated: false
-comments: false
-link: false
-permalink: false
-excerpt: false
-categories: false
-tags: true
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+```
+
+## 菜单栏
+
+```
+#菜单
+menu:
+  主页: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  #随笔: /tags/随笔/
+  产品: /product
+  联系我们: /contact
+  关于我们: /about
+  测试: /test
+  自定义: /custom
+```
