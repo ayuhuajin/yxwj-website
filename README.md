@@ -34,11 +34,12 @@ url: https://ayuhuajin.github.io/yxwj-website/
 ### 插件使用
 
 1.本地引用图片
-(1).打开 hexo 目录下的\_config.yml
-post_asset_folder: true
 
-(2)修改代码  
-/node_modules/hexo-asset-image/index.js
+> (1).打开 hexo 目录下的\_config.yml
+> post_asset_folder: true
+
+> (2)修改代码  
+> /node_modules/hexo-asset-image/index.js
 
 ```js
 <script>
@@ -108,10 +109,11 @@ hexo.extend.filter.register('after_post_render', function(data){
 ```
 
 2.搜索插件
-(1)安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：
-$ npm install hexo-generator-searchdb --save
 
-(2)编辑 站点配置文件，新增以下内容到任意位置：
+> (1)安装 hexo-generator-searchdb，在站点的根目录下执行以下命令：
+> $ npm install hexo-generator-searchdb --save
+
+> (2)编辑 站点配置文件，新增以下内容到任意位置：
 
 search:
 path: search.xml
@@ -119,7 +121,7 @@ field: post
 format: html
 limit: 10000
 
-(3).编辑 主题配置文件，启用本地搜索功能：
+> (3).编辑 主题配置文件，启用本地搜索功能：
 
 ```
 # Local search
@@ -129,8 +131,9 @@ enable: true
 ```
 
 3.hexo-generator-json-content
-(1).npm install hexo-generator-json-content
-(2).站点 config.yml 添加配置
+
+> (1).npm install hexo-generator-json-content
+> (2).站点 config.yml 添加配置
 
 ```
 jsonContent:
@@ -169,3 +172,5 @@ menu:
   测试: /test
   自定义: /custom
 ```
+
+![这是图片](/assets/img/philly-magic-garden.jpg "Magic Gardens")
