@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瀑布流页面</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        .container {
+            margin: 20px;
+            column-gap: 10px;
+        }
+        .item {
+            background: #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            break-inside: avoid;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        @media (min-width: 992px) {
+            .container {
+                column-count: 4; /* PC端四列布局 */
+            }
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            .container {
+                column-count: 3; /* 平板端三列布局 */
+            }
+        }
+        @media (max-width: 767px) {
+            .container {
+                column-count: 2; /* 移动端两列布局 */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 瀑布流项目 -->
+    <div class="item">
+        <img src="/yxwj-website/product/images/qq.png" alt="图片1">
+        <h2>标题1</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <!-- 更多项目 -->
+    <div class="item">
+        <img src="/yxwj-website/product/images/addr.png" alt="图片2">
+        <h2>标题2</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <div class="item">
+        <img src="/yxwj-website/product/images/email.png" alt="图片1">
+        <h2>标题1</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <!-- 更多项目 -->
+    <div class="item">
+        <img src="/yxwj-website/product/images/phone.png" alt="图片2">
+        <h2>标题2</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <div class="item">
+        <img src="/yxwj-website/product/images/qrcode.jpg" alt="图片1">
+        <h2>标题1</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <!-- 更多项目 -->
+    <div class="item">
+        <img src="/yxwj-website/product/images/wechat.png" alt="图片2">
+        <h2>标题2</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <div class="item">
+        <img src="./images/bk.png" alt="图片1">
+        <h2>标题1</h2>
+        <p>这里是描述文本...</p>
+    </div>
+    <!-- 根据需要添加更多 .item -->
+</div>
+
+</body>
+</html>
