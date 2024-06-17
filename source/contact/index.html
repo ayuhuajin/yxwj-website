@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>联系我们</title>
+    <style>
+        html, body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: auto;
+            overflow-x: hidden; /* 隐藏水平滚动条 */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px; /* 最大宽度，可根据需要调整 */
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .contact-info {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .contact-info h2 {
+            margin-top: 0;
+        }
+        .contact-item {
+            margin-bottom: 10px;
+            position: relative; /* 为微信二维码悬浮效果做准备 */
+        }
+        .contact-item img {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+            vertical-align: middle;
+        }
+        .contact-item:hover img {
+            transform: scale(1.1);
+        }
+        .contact-text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .wechat-qrcode {
+            position: absolute;
+            left: 0;
+            bottom: 100%;
+            width: 100px; /* 根据实际二维码大小调整 */
+            display: none; /* 默认不显示 */
+        }
+        .contact-item:hover .wechat-qrcode {
+            display: block; /* 鼠标悬停时显示 */
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .contact-info {
+                padding: 10px;
+            }
+            .contact-item img {
+                width: 40px;
+                height: 40px;
+            }
+            .wechat-qrcode {
+                width: 80px; /* 移动端下二维码大小调整 */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- <h1>联系我们</h1> -->
+    <div class="contact-info">
+        <h4>联系方式</h4>
+        <div class="contact-item">
+            <img src="/yxwj-website/contact/images/qq.png" alt="QQ">
+            <div class="contact-text">QQ: 123456789</div>
+        </div>
+        <div class="contact-item">
+            <img src="/yxwj-website/contact/images/email.png" alt="Email">
+            <div class="contact-text">邮箱: contact@example.com</div>
+        </div>
+        <div class="contact-item">
+            <img src="/yxwj-website/contact/images/wechat.png" alt="WeChat">
+            <div class="contact-text">微信: 微信ID</div>
+            <img class="wechat-qrcode" src="/yxwj-website/contact/images/qrcode.jpg" alt="WeChat QR Code">
+        </div>
+        <div class="contact-item">
+            <img src="/yxwj-website/contact/images/addr.png" alt="Address">
+            <div class="contact-text">公司地址: 具体街道和门牌号</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

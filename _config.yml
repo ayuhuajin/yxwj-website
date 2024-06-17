@@ -14,7 +14,9 @@ timezone: ""
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 #url: http://dd.shijue.show
-url: https://ayuhuajin.github.io/yxwj-website/
+#url: https://ayuhuajin.github.io/yxwj-website/
+url: https://ayuhuajin.github.io
+root: /yxwj-website
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -41,6 +43,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
+#skip_render: about/images/*
 skip_render:
 
 # Writing
@@ -112,7 +115,7 @@ ignore:
 #theme: landscape
 #theme: yilia
 # theme: butterfly
-theme: butterfly
+theme: acorn
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

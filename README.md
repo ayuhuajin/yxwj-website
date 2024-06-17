@@ -174,3 +174,9 @@ menu:
 ```
 
 ![这是图片](/assets/img/philly-magic-garden.jpg "Magic Gardens")
+
+```
+如果要忽略source下的test文件夹下所有文件，可以这样配置： 配置站点_config.yml
+> skip_render: test/_
+> skip_render: [test/_]
+```
