@@ -115,7 +115,8 @@ ignore:
 #theme: landscape
 #theme: yilia
 # theme: butterfly
-theme: acorn
+# theme: acorn
+theme: hexo-theme-huhu
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

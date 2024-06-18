@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式页脚示例</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100%;
+            min-height: 100%;
+            position: relative;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            /* display: flex; */
+            /* flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center; */
+        }
+        .footer-nav, .footer-contact, .footer-copyright {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .footer-nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+        .footer-nav a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-nav a:hover {
+            color: #fff;
+        }
+        .footer-qrcode {
+            /* display: flex;
+            flex-direction: column; */
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .qrcode {
+            width: 100px; /* 根据实际二维码图片大小调整 */
+            height: auto;
+        }
+        .footer-wrap{
+            display: flex;
+            align-items: center;
+        }
+        .footer-wrap div{
+            flex:0 0 50%;
+        }
+        @media (max-width: 768px) {
+            .footer-wrap{
+               display: block !important;
+            }
+            .footer-contact, .footer-qrcode {
+                text-align: right;
+            }
+            .footer-nav {
+                text-align: left;
+            }
+            .footer-contact, .footer-qrcode, .footer-copyright {
+                flex: 1 auto; /* 多行时自动调整宽度 */
+            }
+            .footer-contact, .footer-qrcode {
+                text-align: center;
+                margin-left: 20px;
+            }
+            .footer-nav {
+                margin-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 网页的主要内容 -->
+    <div class="container">
+        <!-- 主要内容放这里 -->
+    </div>
+
+    <!-- 页脚开始 -->
+    <footer class="footer">
+        <!-- <div class="footer-nav">
+            <ul>
+                <li><a href="/about">关于我们</a></li>
+                <li><a href="/products">产品中心</a></li>
+            </ul>
+        </div> -->
+        <div class="footer-wrap">
+            <div class="footer-qrcode">
+                <img src="./images/banner-5.jpg" alt="二维码" class="qrcode">
+                <p>扫码加好友</p>
+            </div>
+            <div class="footer-contact">
+                <p>邮箱：example@example.com</p>
+                <p>联系电话：123-456-7890</p>
+                <p>传真：098-7654-3210</p>
+                <p>公司地址：你的详细地址</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>版权所有 &copy; 2024 你的公司名称. 保留所有权利。</p>
+        </div>
+    </footer>
+    <!-- 页脚结束 -->
+
+</body>
+</html>
