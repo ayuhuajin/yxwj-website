@@ -130,7 +130,7 @@ local_search:
 enable: true
 ```
 
-3.hexo-generator-json-content
+3.hexo-generator-json-content 用于生成站内搜索生成文件
 
 > (1).npm install hexo-generator-json-content
 > (2).站点 config.yml 添加配置
