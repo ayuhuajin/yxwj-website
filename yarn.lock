@@ -734,7 +734,7 @@
   optionalDependencies:
     "fsevents" "^1.0.0"
 
-"chokidar@^3.3.0", "chokidar@^3.5.3":
+"chokidar@^3.3.0", "chokidar@^3.5.3", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz"
   "version" "3.6.0"
@@ -2089,6 +2089,13 @@
   dependencies:
     "pug" "^3.0.2"
 
+"hexo-renderer-sass@^0.5.0":
+  "integrity" "sha512-zNuXGOTZj/2tLFwnVuueqbzOS8yVFhdVYbei5wPPUoiompiyZjEkF+P9TCHEuFZl+foQictqxKY2ngiWiNYOBw=="
+  "resolved" "https://registry.npmjs.org/hexo-renderer-sass/-/hexo-renderer-sass-0.5.0.tgz"
+  "version" "0.5.0"
+  dependencies:
+    "sass" "^1.41.1"
+
 "hexo-renderer-stylus@^3.0.0", "hexo-renderer-stylus@^3.0.1":
   "integrity" "sha512-cFm8ZwShBBeFcQwOXc8EK7lIZnSYVD6OJykdL4GBw99hxc4eD5Hlsi32nRzE8sgKv00jhX1s9Da3GVVFMPAVQg=="
   "resolved" "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-3.0.1.tgz"
@@ -2160,7 +2167,7 @@
     "prismjs" "^1.29.0"
     "strip-indent" "^3.0.0"
 
-"hexo@^7.0.0":
+"hexo@^7.0.0", "hexo@>= 3":
   "integrity" "sha512-RYIzl7jfG0i2jH/k5IZg4C1anyHfmKHNUsBKIn9LU0V3iQ0WQrwuOLFDJwaZDenqmzHYJhAVCGAkrBDfF/IlVg=="
   "resolved" "https://registry.npmjs.org/hexo/-/hexo-7.2.0.tgz"
   "version" "7.2.0"
@@ -2322,6 +2329,11 @@
   "integrity" "sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ=="
   "resolved" "https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz"
   "version" "0.5.5"
+
+"immutable@^4.0.0":
+  "integrity" "sha512-Ju0+lEMyzMVZarkTn/gqRpdqd5dOPaz1mCZ0SH3JV6iFw81PldE/PEB1hWVEA288HPt4WXW8O7AWxB10M+03QQ=="
+  "resolved" "https://registry.npmjs.org/immutable/-/immutable-4.3.6.tgz"
+  "version" "4.3.6"
 
 "indexof@0.0.1":
   "integrity" "sha512-i0G7hLJ1z0DE8dsqJa2rycj9dBmNKgXBvotXtZYXakU9oivfB9Uj2ZBC27qqef2U58/ZLwalxa1X/RDCdkHtVg=="
@@ -3938,6 +3950,15 @@
   "resolved" "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
+"sass@^1.41.1":
+  "integrity" "sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.77.6.tgz"
+  "version" "1.77.6"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
+    "immutable" "^4.0.0"
+    "source-map-js" ">=0.6.2 <2.0.0"
+
 "sax@~1.3.0":
   "integrity" "sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA=="
   "resolved" "https://registry.npmjs.org/sax/-/sax-1.3.0.tgz"
@@ -4104,6 +4125,11 @@
   "version" "1.0.9"
   dependencies:
     "hoek" "2.x.x"
+
+"source-map-js@>=0.6.2 <2.0.0":
+  "integrity" "sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg=="
+  "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.0.tgz"
+  "version" "1.2.0"
 
 "source-map-resolve@^0.5.0":
   "integrity" "sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw=="
