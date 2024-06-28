@@ -150,4 +150,5 @@ jsonContent:
 # theme: acorn
 # theme: hexo-theme-huhu
 # theme: snark
-theme: hexoThemeKacper
+# theme: hexoThemeKacper
+theme: aomori
