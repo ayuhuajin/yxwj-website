@@ -109,17 +109,6 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-#theme: landscape
-#theme: yilia
-# theme: butterfly
-# theme: acorn
-# theme: hexo-theme-huhu
-# theme: snark
-theme: hexoThemeKacper
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -151,3 +140,14 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+#theme: landscape
+#theme: yilia
+# theme: butterfly
+# theme: acorn
+# theme: hexo-theme-huhu
+# theme: snark
+theme: hexoThemeKacper
