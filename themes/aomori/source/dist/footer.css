@@ -1,6 +1,7 @@
 
 .footer {
  position: relative;
+ color: white;
 }
 .footer-nav, .footer-contact, .footer-copyright {
   text-align: center;
@@ -32,6 +33,7 @@
 .qrcode {
   width: 100px; /* 根据实际二维码图片大小调整 */
   height: auto;
+  margin-bottom: 10px;
 }
 .footer-wrap{
   display: flex;
@@ -60,4 +62,7 @@
   .footer-nav {
       margin-right: 20px;
   }
+}
+.footer-copyright{
+  color: #3b4351;
 }

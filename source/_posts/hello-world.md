@@ -1,38 +1,14 @@
 ---
-title: Hello World
+title: 主题
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
+```bash
+快速、简单、强大的博客框架，具有超快的生成速度，支持Markdown，一键部署和高可扩展性。
+青森主题是基于和硕的一系列优势而发展起来的。这个主题的想法是希望博主能更多地专注于制作内容，读者能更多地关注于接收信息。
+青森提供了许多支持其概念的功能。
+丰富的网站风格
+丰富的主题配置
+优化多媒体播放
+出色的SEO优化
+响应式布局
 ```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
