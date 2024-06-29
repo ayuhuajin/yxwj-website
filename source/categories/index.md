@@ -1,5 +1,5 @@
 ---
-title: categories
+title: 分类
 date: 2024-06-13 16:00:15
-type: "categories"
+type: "分类"
 ---

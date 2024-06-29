@@ -8,7 +8,7 @@ subtitle: ""
 description: ""
 keywords:
 author: Wang
-language: en
+language: zh-CN
 timezone: ""
 
 # URL
@@ -151,4 +151,7 @@ jsonContent:
 # theme: hexo-theme-huhu
 # theme: snark
 # theme: hexoThemeKacper
-theme: aomori
+# theme: aomori
+# theme: hexo-theme-aircv
+# theme: hexo-theme-huxblog
+theme: kaze
