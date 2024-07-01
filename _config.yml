@@ -25,15 +25,15 @@ pretty_urls:
 #菜单
 menu:
   主页: /
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
+  归档: /archives
+  #Tags: /tags
+  #Categories: /categories
   #随笔: /tags/随笔/
   产品: /product
   联系我们: /contact
   关于我们: /about
-  测试: /test
-  自定义: /custom
+  #测试: /test
+  #自定义: /custom
 
 # Directory
 source_dir: source
@@ -154,5 +154,5 @@ jsonContent:
 # theme: aomori
 # theme: hexo-theme-aircv
 # theme: hexo-theme-huxblog
-# theme: kaze
-theme: materialize
+theme: kaze
+# theme: materialize
