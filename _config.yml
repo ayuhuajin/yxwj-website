@@ -154,4 +154,5 @@ jsonContent:
 # theme: aomori
 # theme: hexo-theme-aircv
 # theme: hexo-theme-huxblog
-theme: kaze
+# theme: kaze
+theme: materialize

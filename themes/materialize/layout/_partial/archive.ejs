@@ -1,0 +1,26 @@
+<% webpackAssets('blog'); %>
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+
+      <% if ( is_tag() ) { %>
+        <h2 class="header color-featured"><%= __('layout.tag') %>: <%- page.tag %></h2>
+      <% } %>
+
+      <% page.posts.each((post) => { %>
+        <%- partial('article', { post: post, index: true }) %>
+      <% }) %>
+
+
+      <% if (page.total > 1) { %>
+        <nav id="page-nav">
+          <%- paginator({
+            prev_text: __('layout.prev_text'),
+            next_text: __('layout.next_text')
+          }) %>
+        </nav>
+      <% } %>
+
+    </div>
+  </div>
+</div>
