@@ -26,12 +26,12 @@ pretty_urls:
 menu:
   主页: /
   归档: /archives
-  #Tags: /tags
-  #Categories: /categories
-  #随笔: /tags/随笔/
   产品: /product
   联系我们: /contact
   关于我们: /about
+  #Tags: /tags
+  #Categories: /categories
+  #随笔: /tags/随笔/
   #测试: /test
   #自定义: /custom
 
@@ -154,5 +154,6 @@ jsonContent:
 # theme: aomori
 # theme: hexo-theme-aircv
 # theme: hexo-theme-huxblog
-theme: kaze
+# theme: kaze
 # theme: materialize
+theme: hacker
