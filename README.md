@@ -182,3 +182,15 @@ menu:
 ```
 
 为方便将 yilia 的主题配置进行同步（其实该主题已经很久没更新了……），但是之前我们使用 github 克隆的 yilia，也就是话说：/themes/yilia/里面也有一个仓库，这涉及到 git 仓库下的子仓库的问题，默认情况下是不将该子仓库介入到外层仓库的，但是我们需要备份 yilia 主题的配置文件，所以需要删除该子仓库，即删除/themes/yilia/.git 文件夹。
+
+可用 找不到在哪
+theme: hexo-theme-huxblog
+
+导航栏怎么配置
+theme: aomori
+
+联系我们页面出不来
+theme: hexoThemeKacper
+
+样式有点问题 需要调整
+theme: snark

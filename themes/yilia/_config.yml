@@ -2,15 +2,18 @@
 
 menu:
   主页: /
-  Archives: /archives
-  Tags: /tags
-  Categories: /categories
-  #随笔: /tags/随笔/
-  产品2: /product
+  归档: /archives
+  产品: /product
   联系我们: /contact
   关于我们: /about
-  测试: /test
-  自定义: /custom
+  #Archives: /archives
+  #Tags: /tags
+  #Categories: /categories
+  #产品: /product
+  #联系我们: /contact
+  #关于我们: /about
+  # 测试: /test
+  # 自定义: /custom
   #图标
 menu_icons:
   enable: true

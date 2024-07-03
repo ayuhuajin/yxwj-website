@@ -140,22 +140,20 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-#theme: yilia
-# theme: butterfly
+theme: butterfly
+# theme: yilia
 # theme: acorn
 # theme: hexo-theme-huhu
 # theme: snark
 # theme: hexoThemeKacper
 # theme: aomori
-# theme: hexo-theme-aircv
-# theme: hexo-theme-huxblog
+#theme: hexo-theme-huxblog
 # theme: kaze
 # theme: materialize
 # theme: hacker
 # theme: Aath
-theme: flexblock
+# theme: flexblock
