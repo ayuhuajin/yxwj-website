@@ -1,0 +1,21 @@
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  主页: /
+  归档: /archives
+  产品: /product
+  联系我们: /contact
+  关于我们: /about
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+  - /css/style.css
+
+# scripts loaded in the end of the body
+scripts:
+  - /js/script.js
