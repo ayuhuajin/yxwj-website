@@ -29,6 +29,7 @@ menu:
   产品: /product
   联系我们: /contact
   关于我们: /about
+  #百度: http://www.baidu.com
   #Tags: /tags
   #Categories: /categories
   #随笔: /tags/随笔/
@@ -156,7 +157,7 @@ jsonContent:
 # theme: hacker
 # theme: Aath
 # theme: flexblock
-
+theme: cactus
 # npm install
-theme: butterfly
+# theme: butterfly
 # theme: aurora   未安装成功
