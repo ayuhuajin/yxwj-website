@@ -157,7 +157,9 @@ jsonContent:
 # theme: hacker
 # theme: Aath
 # theme: flexblock
-theme: cactus
-# npm install
+# theme: cactus
+theme: bamboo
+# ------------
+#  npm install
 # theme: butterfly
 # theme: aurora   未安装成功
