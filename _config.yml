@@ -144,7 +144,6 @@ jsonContent:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: butterfly
 # theme: yilia
 # theme: acorn
 # theme: hexo-theme-huhu
@@ -157,3 +156,7 @@ theme: butterfly
 # theme: hacker
 # theme: Aath
 # theme: flexblock
+
+# npm install
+theme: butterfly
+# theme: aurora   未安装成功
