@@ -194,3 +194,13 @@ theme: hexoThemeKacper
 
 样式有点问题 需要调整
 theme: snark
+
+```
+#菜单
+menu:
+  主页: /
+  归档: /archives
+  产品: /product
+  联系我们: /contact
+  关于我们: /about
+```

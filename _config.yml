@@ -158,7 +158,8 @@ jsonContent:
 # theme: Aath
 # theme: flexblock
 # theme: cactus
-theme: bamboo
+# theme: bamboo
+theme: chic
 # ------------
 #  npm install
 # theme: butterfly
