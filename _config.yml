@@ -159,7 +159,8 @@ jsonContent:
 # theme: flexblock
 # theme: cactus
 # theme: bamboo
-theme: chic
+# theme: chic
+theme: hiker
 # ------------
 #  npm install
 # theme: butterfly
