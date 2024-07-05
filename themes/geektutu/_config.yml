@@ -1,0 +1,13 @@
+# Code Highlight theme
+# normal | night | night yilia | night eighties | night blue | night bright
+highlight_theme: geektutu
+title: "上帝发誓的发射点发士大夫阿斯顿阿斯顿 "
+##
+menu:
+  主页22: /
+  归档: /archives
+  产品: /product
+  联系我们: /contact
+  关于我们: /about
+
+theme: geektutu
