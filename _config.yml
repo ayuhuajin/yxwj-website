@@ -160,7 +160,8 @@ jsonContent:
 # theme: cactus
 # theme: bamboo
 # theme: chic
-theme: geektutu
+# theme: geektutu
+theme: quiet
 # ------------
 #  npm install
 # theme: butterfly
