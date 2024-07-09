@@ -161,7 +161,8 @@ jsonContent:
 # theme: bamboo
 # theme: chic
 # theme: geektutu
-theme: quiet
+# theme: quiet
+theme: anodyne
 # ------------
 #  npm install
 # theme: butterfly
