@@ -1,0 +1,55 @@
+.archives-container{
+  min-height: 300px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0,0,0,.15);
+  border-radius: 2px;
+
+  .tag-title {
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0 0 20px;
+
+    i {
+      color: $main-red;
+    }
+  }
+
+  .archives-wrapper {
+    padding-left: 10px;
+  }
+
+  .archive-year {
+    line-height: 1;
+    font-size: 26px;
+    margin: 15px 0;
+    color: $main-font-color;
+  }
+
+  .archive-article {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .3s;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    .archive-meta{
+      color: #8a8a8a;
+    }
+    .archive-title{
+      color: $main-font-color;
+      font-size: 18px;
+      padding-left: 20px;
+    }
+    &:hover{
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px #eaeaea;
+      border-color: $main-red;
+      .archive-title{
+        color: $main-red;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.tags-container{
+  font-size: 24px;
+  min-height: 300px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+
+  .tags-title{
+    padding-left: 20px;
+    border-left: 2px solid $main-red;
+  }
+
+  .tags-content {
+    flex: 1;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tags-detail{
+    width: 90%;
+    text-align: center;
+    a{
+      text-decoration: none;
+      margin: 5px;
+      transition: color .3s;
+      &:hover{
+        color: $main-red;
+      }
+    }
+  }
+}

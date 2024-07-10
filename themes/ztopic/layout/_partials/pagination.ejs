@@ -1,0 +1,53 @@
+<% if(is_post()){ %>
+  <nav class="pagination post-nav">
+    <% if(page.prev){ %>
+      <a href="<%= url_for(page.prev.path) %>">
+        <div class="prev-post">
+          <i class="iconfont icon-back"></i>
+          <span class="truncate-text">
+            <%= page.prev.title %>
+          </span>
+        </div>
+      </a>
+    <% }else{ %>
+      <div></div>
+    <% } %>
+    <% if(page.next){ %>
+      <a href="<%= url_for(page.next.path) %>">
+        <div class="next-post">
+          <span class="truncate-text">
+            <%= page.next.title %>
+          </span>
+          <i class="iconfont icon-more"></i>
+        </div>
+      </a>
+    <% }else{ %>
+      <div></div>
+    <% } %>
+  </nav>
+<% }else if(page.type && page.type==="about"){ %>
+
+<% }else{ %>
+    <nav class="pagination">
+    <% if(page.prev){ %>
+      <a href="<%= url_for(page.prev_link) %>">
+        <div class="prev">
+          <i class="iconfont icon-back"></i>
+          <span><%= __('pagination.prev') %></span>
+        </div>
+      </a>
+    <% }else{ %>
+      <div></div>
+    <% } %>
+    <% if(page.next){ %>
+      <a href="<%= url_for(page.next_link) %>">
+        <div class="next">
+          <span><%= __('pagination.next') %></span>
+          <i class="iconfont icon-more"></i>
+        </div>
+      </a>
+    <% }else{ %>
+      <div></div>
+    <% } %>
+  </nav>
+<% } %>
