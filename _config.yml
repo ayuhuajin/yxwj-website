@@ -168,7 +168,8 @@ jsonContent:
 # theme: particlex
 # theme: ztopic
 # theme: candelas
-theme: auto
+#theme: auto
+theme: ayer
 # ------------
 #  npm install
 # theme: butterfly
