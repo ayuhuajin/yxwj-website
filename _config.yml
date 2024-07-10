@@ -167,7 +167,8 @@ jsonContent:
 # theme: goyangin
 # theme: particlex
 # theme: ztopic
-theme: candelas
+# theme: candelas
+theme: auto
 # ------------
 #  npm install
 # theme: butterfly
