@@ -164,7 +164,8 @@ jsonContent:
 # theme: quiet
 # theme: anodyne
 # theme: bmw
-theme: goyangin
+# theme: goyangin
+theme: particlex
 # ------------
 #  npm install
 # theme: butterfly
