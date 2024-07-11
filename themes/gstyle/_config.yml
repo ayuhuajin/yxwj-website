@@ -1,0 +1,38 @@
+# main menu navigation
+menu:
+  主页: /
+  归档: /archives
+  产品: /product
+  联系我们: /contact
+  关于我们: /about
+
+# Miscelaneous
+favicon: /favicon.ico
+
+show_post_category: true
+show_post_tags: true
+
+active_nav: false # show active status on nav menu
+
+sidebar: true # whether to show the sidebar
+widgets:
+  # - category
+  # - tag
+  # - tagcloud
+  # - archive
+  - recent_posts
+  - links
+links:
+  - title: "GitHub"
+    url: http://www.github.com/wayou
+    intro: "码农之家"
+  - title: "微博"
+    url: http://www.weibo.com/liuwayong
+    intro: "twitter的本地化版本"
+
+# disqus_shortname: wayou
+duoshuo_shortname: wayouliu
+#site statistic
+google_analytics:
+# baidu_analytics: 392796d51567e848aebf813b65cb8656
+baidu_analytics:
