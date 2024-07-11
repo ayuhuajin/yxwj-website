@@ -172,7 +172,8 @@ jsonContent:
 # theme: ayer
 # theme: aria
 # theme: light
-theme: nebula
+# theme: nebula
+theme: cleanblog
 # ------------
 #  npm install
 # theme: butterfly
