@@ -169,7 +169,8 @@ jsonContent:
 # theme: ztopic
 # theme: candelas
 #theme: auto
-theme: ayer
+# theme: ayer
+theme: aria
 # ------------
 #  npm install
 # theme: butterfly
