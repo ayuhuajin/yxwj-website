@@ -171,7 +171,8 @@ jsonContent:
 #theme: auto
 # theme: ayer
 # theme: aria
-theme: light
+# theme: light
+theme: nebula
 # ------------
 #  npm install
 # theme: butterfly
