@@ -173,7 +173,8 @@ jsonContent:
 # theme: aria
 # theme: light
 # theme: nebula
-theme: cleanblog
+# theme: cleanblog
+theme: diaspora
 # ------------
 #  npm install
 # theme: butterfly
