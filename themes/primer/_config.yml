@@ -3,7 +3,7 @@ menus:
 		name: 主页
 		link: /
 	- 
-		name: 归档
+		name: 企业动态
 		link: archives/
 	- 
 		name: 产品
