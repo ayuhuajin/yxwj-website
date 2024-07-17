@@ -1,0 +1,47 @@
+menus:
+	- 
+		name: 主页
+		link: /
+	- 
+		name: 归档
+		link: archives/
+	- 
+		name: 产品
+		link: product/
+	- 
+		name: 联系我们
+		link: contact/
+	- 
+		name: 关于我们
+		link: about/
+
+profile:
+	location: ChengDu, China
+	github: yumexupanic
+	#stackoverflow: 
+		#title: 
+		#href: 
+	#organization: 组织/公司
+
+github: 
+	username: yumexupanic
+  popular_repos: [hexo-theme-primer]
+
+search: local #google｜local
+
+
+# 多说已关闭 目前支持 Disqus Gitmet Twikoo
+
+#Twikoo
+#twikoo_envId: 
+
+#Disqus
+#disqus_username:
+
+#Giemtn 是基于repo的issus的评论系统，项目地址: https://github.com/imsun/gitment
+#在 https://github.com/settings/applications/new 注册
+
+# gitment_owner: github_id
+# gitment_repo: 存放评论的repo
+# gitment_client_id: 申请的client_id
+# gitment_client_secret: 申请的client_secret
