@@ -1,0 +1,71 @@
+menu:
+  主页: /
+  归档: /archives
+  产品: /product
+  联系我们: /contact
+  关于我们: /about
+  # Categories: /categories
+
+# Social links
+social:
+  GitHub:
+    key: github
+    link: https://github.com/Boseny
+  微博:
+    key: weibo
+    link: https://weibo.com/boseny
+  知乎:
+    key: zhihu
+    link: https://www.zhihu.com/people/boseny
+  Lofter:
+    key: lofter
+    link: http://boseny.lofter.com/
+  # 等等
+# duoshuo comment 已废弃
+duoshuo: false
+duoshuo_name:
+
+# disqus comment
+disqus: false
+disqus_shortname: boseny-blog
+
+# livere comment
+livere: false
+livere_uid: MTAyMC8zMzYwMC8xMDE1NQ==
+
+#Gitment (Recommended Use) see https://imsun.net/posts/gitment-introduction/
+Gitment: true
+Gitment_client_id: f40c67d0359a2646d2b1
+Gitment_client_secret: 1cbedbd1a1a2e4b42901aee3d7afe1856c1b7e2d
+Gitment_Github_id: Boseny
+repo: boseny.me
+
+# youyan comment
+youyan: false
+youyan_uid: 2156653
+# google analytics
+googleTrackId: UA-92842840-1
+
+# google AdSenseId
+AdSenseId: ca-pub-5005349780815724
+
+# 百度统计
+baidu_analytics: 223eea22355699157e147870eb124b24
+
+toc:
+  enable: true
+
+# anchorjs
+anchorjs: true
+
+# sidebar search
+search: true
+# sidebar categories
+categories: true
+# sidebar links
+links: true
+
+draw: true
+draw_maxNum: 10
+draw_iconText: ❤
+draw_color: red
