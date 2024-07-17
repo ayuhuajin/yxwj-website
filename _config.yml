@@ -175,7 +175,8 @@ jsonContent:
 # theme: nebula
 # theme: cleanblog
 # theme: diaspora
-theme: gstyle
+# theme: gstyle
+theme: edinburgh
 # ------------
 #  npm install
 # theme: butterfly
