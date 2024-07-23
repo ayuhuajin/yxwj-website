@@ -180,7 +180,9 @@ jsonContent:
 # theme: lap
 # theme: primer
 # theme: next
-theme: archer
+# theme: archer
+# theme: hexo-theme-matery   提交有问题   https://github.com/blinkfox/hexo-theme-matery.git
+theme: monie
 # ------------
 #  npm install
 # theme: butterfly
