@@ -1,0 +1,17 @@
+.home_bg
+  .home_bg_container
+    .left_info
+      .title= 'Hello! 我是 '
+        span.name= config.author
+      if theme.home_info.length 
+        each value, index in theme.home_info
+         .info= value.info
+      .goto_btn
+        .yu13_btn
+          i.yufont.icon-github-fill
+          a(href=theme.github_url)= 'GitHub'
+        .yu13_btn
+          i.yufont.icon-gitee-fill-round
+          a(href=theme.github_url)= 'Gitee'
+    .right_icon
+     img(src=url_for('/assets/imgs/index.svg'), alt="首页")

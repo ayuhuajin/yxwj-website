@@ -1,0 +1,41 @@
+# Blog
+# Miscellaneous
+favicon: /assets/imgs/favicon.ico
+# Logo
+logo: "/assets/imgs/logo.png"
+# Home Info
+home_info:
+  - info: "Monie  正式完工了！！！"
+  - info: "这是我的个人博客，致力于帮助你以最直观、最快速的方式学会前端开发，并希望我的个人经历对你有所启发。"
+# Home 首页标题
+blog_title: "最新文章 · 资源上新"
+# Home 首页Info
+blog_des: "授人以鱼，不如授人以渔。业精于勤，荒于嬉；行成于思，毁于随。"
+# author avatar
+avatar: "/assets/imgs/avatar.jpg"
+# author home
+author_url: "/about"
+# author desc
+author_desc: "不断学习，不断提升！"
+
+github_url: "https://github.com/lyboy6/hexo-theme-monie"
+gitee_url: "https://gitee.com/lyboy6/hexo-themes-monie"
+# Header
+menu:
+  - menu_name: 首页
+    menu_link: /
+  - menu_name: 企业动态
+    menu_link: /archives
+  - menu_name: 产品
+    menu_link: /product
+  - menu_name: 联系我们
+    menu_link: /contact
+  - menu_name: 关于我们
+    menu_link: /about
+# Content
+
+# Sidebar
+
+# widget behavior
+
+#  page setting

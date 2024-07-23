@@ -1,0 +1,27 @@
+extends includes/layout.pug
+block content
+  != partial('./includes/archive',{}, {cache: false})
+  .container.log_container.clearfix
+    .article_content.left 
+      .article_main
+        article.content
+          .content_text.article_text 
+            != page.content
+          != partial('./includes/archive/tags',{tags: page.tags}, {cache: false})
+        .article-copyright
+          p
+            = '标题: '
+            a(href=url_for(page.path))= page.title 
+          p 
+            = '链接: '
+            a(href=url_for(page.path))= config.url +  url_for(page.path)
+          p 
+            = '版权声明: 若无特殊标注皆为 '
+            = config.author
+            = ' 原创版权, 转载请以链接形式注明作者及原始出处'
+          p
+           = '最后编辑时间: '
+           = date(page.update,  'YYYY-MM-DD')
+        .page_turning
+          != thurning(page.next,page.prev)
+    != partial('./includes/sidebar/sidebar',{page: page}, { cache: false  })

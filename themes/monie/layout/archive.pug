@@ -1,0 +1,16 @@
+extends includes/layout.pug
+block content
+  - var dateTime = page.posts.data[0].updated
+  != partial('./includes/mixins/page/top-bg',{title : '归档- ' + date(dateTime, 'YYYY') }, {cache: false})
+  .ergodic
+    .ergodic_item.all_sort
+      p= '全部分类'
+    ul.clearfix
+      if site.categories.length 
+        each value, index  in site.categories.data
+          li(class= value.name == page.category ? 'active' : '')
+            a(href=url_for(value.path))= value.name
+  != partial('./includes/mixins/posts',{posts: page.posts},{ cache: false  })
+  div.page_container
+    .lists_nav
+      != paginator({ prev_text: '<i class="fa fa-angle-left"></i>',next_text: '<i class="fa fa-angle-right"></i>', escape: false })   
